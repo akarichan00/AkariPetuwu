@@ -1,0 +1,677 @@
+
+#top{
+    width: 100%;
+    background-color:#E6E6E6;
+    top:0;
+    height:50px;
+    background-repeat:repeat-x;
+    position:fixed;
+}
+* {
+    margin:0;
+    padding:0;
+    font-family:Coolvetica;
+}
+
+.logo a{ 
+    float:left;
+    text-transform:none;
+    padding-top:10px;
+    padding-bottom:10px;
+    padding-left:20px;
+    height:auto; 
+    float:left;
+    color: black;
+    cursor:pointer;
+    text-decoration:none;
+} 
+.logo a:hover{
+    color:#4D4D4D
+}
+#top ul {
+    margin-right:25px;
+    margin-top:-30px;
+    padding:35px;
+    float: right ; 
+    padding-bottom:0px;
+
+}
+#top ul li {
+    display:inline-block
+} 
+#top ul li a {
+    text-transform:uppercase;
+    color:black;
+    text-decoration:none;
+    padding:5px 20px ;
+}
+/* #top ul li a:hover{ 
+    background-color: white;
+    color:black;
+} */
+body{
+   
+    background-color: white;
+    background-size:cover;
+    height:100vh ;
+   
+} 
+#top ul li.active a{
+    background-color: white;
+    color:#323B58; 
+}
+.title {
+    position: absolute ;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    
+}
+.title h1 {
+    font-family:cursive; 
+    color:white;
+    text-transform:uppercase;
+    font-size:40px;
+    padding-top: 10%; 
+
+}
+#shape{
+    width: 300px;
+    height: 300px;
+    background: #7a573e;
+    position: absolute;
+    top:25%;
+    left:20%;
+    
+}
+p{
+    font-family:cursive;
+    color:white;
+    text-transform:uppercase;
+    padding-top: 10%; 
+    padding-left:50px
+}
+.login{
+    
+    padding-top: 10%; 
+    padding-left:50px
+}
+input{
+    border: 2px solid black;
+    border-radius: 4px;
+    width :80%;
+    padding:12px;
+        
+}
+
+input[type=submit] {
+    background-color:#9498a1;
+    color: white;
+    padding: 12px 5px;
+    border: 2px solid #9498a1;
+    border-radius: 4px;
+    cursor: pointer;
+    float: center ;
+    padding-left:15px;
+  }
+  
+input[type=submit]:hover {
+    background-color: lightgrey ;
+    color:black;
+    border: 2px solid lightgrey;
+  }
+input[type=email] {
+    background-color:white;
+
+}
+input[type=password] {
+    background-color:white;
+
+}
+
+.box-1 img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover
+}
+
+.box-2 {
+    padding: 10px
+}
+
+.box-1 ,
+.box-2 {
+    width: 50%
+}
+.container {
+    margin: 50px auto
+}
+
+.body {
+    position: relative;
+    width: 720px;
+    height: 440px;
+    margin: 20px auto;
+    border: 1px solid #dddd;
+    border-radius: 18px;
+    overflow: hidden;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    font-family: Segoe;
+}
+.h-1 {
+    font-size: 24px;
+    font-weight: 700;
+    color:black;
+    padding-left:40px;
+}
+
+.menu a , .menu a i {
+    text-decoration:none;
+    color:rgba(255, 255, 255, 0.6);
+    padding-inline: 10px;
+    
+}
+.menu a i{
+    text-decoration:none;
+    color:rgba(255, 255, 255, 0.6);
+    padding-block:20px;
+}
+.col a{
+    text-decoration:none;
+    color:white;
+    padding-inline: 10px;
+}
+.col a:hover{
+    color:lightgrey;
+}
+.menu a:hover , .menu a i:hover {
+    color:white;
+}
+
+.footer{
+    position:grid;
+    bottom:0;
+    width: 100%;
+    background-color:#4D4D4D;     
+}
+.box-1{
+    background-color:#9498a1;
+
+}
+.body{
+    margin-block:10%;
+}
+/*link hover*/
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: black;
+}
+  
+.hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+  
+.hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+@media   screen and (min-width:768px){
+   
+    #top{
+       
+       height:100px;
+       font-size:xx-large;
+       z-index:1;
+    }
+    .logo a , #top ul li a{
+         margin-block:10px;
+    }
+   .firstsec{
+       margin-top:10%;
+       background-image:url("images/Webp.net-resizeimage.jpg") ;
+       background-size:cover;
+       background-repeat:no-repeat;
+
+   }
+   .firstsec div p {
+       position:absolute;
+       top:10%;
+       font-size:xx-large;
+   }
+   .firstsec div a {
+       position:absolute;
+       top:30%; 
+       left:-10px;
+       font-size:larger;
+      
+   }
+   .footer{
+       font-size:large;
+   }
+   .cardbtn{
+       
+       padding-left:50px;
+       padding-right:50px;
+      
+   }
+   article{
+       display:block;
+       margin-inline:6%;
+       
+   }
+   .card1{
+   
+       width:100%;
+   }
+   .idk{
+       margin-left:42%;
+       margin-right:7%;
+   }
+   .container{
+       font-size:x-large;
+       padding-bottom:5%;
+   }
+   
+}
+@media   screen and (min-width:375px) {
+    #top{
+       
+       height:80px;
+       font-size:larger;
+       z-index:1;
+    }
+    #top ul {
+        margin-right:0px;
+        padding-right:10px;
+    }
+    .logo a , #top ul li a{
+         margin-block:10px;
+         
+    }
+    
+   .firstsec{
+       margin-top:10%;
+       background-image:url("images/206-2067625_iphone-6-cute-cat-wallpaper-hd.jpg") ;
+       background-size:cover;
+       background-repeat:no-repeat;
+      
+
+   }
+   .firstsec div p {
+       position:absolute;
+       top:60%;
+       font-size:smaller;
+   }
+   .firstsec div a {
+       position:absolute;
+       top:80%; 
+       left:-10px;
+       font-size:larger;
+      
+   }
+   .footer{
+       font-size:large;
+       margin-right:0px;
+   }
+   .cardbtn{
+       
+       padding-left:50px;
+       padding-right:50px;
+      
+   }
+   article{
+       display:block;
+       margin-inline:6%;
+       
+   }
+   .card1{
+   
+       width:100%;
+   }
+   .idk{
+       margin-left:42%;
+       margin-right:7%;
+   }
+   .container{
+       font-size:x-large;
+       padding-bottom:5%;
+   }
+   
+}
+
+@media screen and (min-width:950px){
+   #top{
+       width: 100%;
+       background-color:#E6E6E6;
+       top:0;
+       height:60px;
+       background-repeat:repeat-x;
+       position:fixed;
+   }
+   * {
+       margin:0;
+       padding:0;
+       font-family: Coolvetica;
+   }
+   
+   .logo a{ 
+       float:left;
+       text-transform:none;
+       padding-top:10px;
+       padding-bottom:10px;
+       padding-left:20px;
+       height:auto; 
+       float:left;
+       color: black;
+       cursor:pointer;
+       text-decoration:none;
+   } 
+   .logo a:hover{
+       color:#4D4D4D
+   }
+   #top ul {
+       margin-right:25px;
+       margin-top:-30px;
+       padding:35px;
+       float: right ; 
+       padding-bottom:0px;
+   
+   }
+   #top ul li {
+       display:inline-block
+   } 
+   #top ul li a {
+       text-transform:uppercase;
+       color:black;
+       text-decoration:none;
+       padding:5px 20px ;
+   }
+   /* #top ul li a:hover{ 
+       background-color: white;
+       color:black;
+   } */
+   body{
+      
+       background-color: white;
+       background-size:cover;
+       height:100vh ;
+   
+      
+   }
+   
+   html {
+       overflow: scroll;
+       overflow-x: hidden;
+   }
+   ::-webkit-scrollbar {
+       width: 0;  /* Remove scrollbar space */
+       background: transparent;  /* Optional: just make scrollbar invisible */
+   }
+   /* Optional: show position indicator in red */
+   
+   #top ul li.active a{
+       background-color: white;
+       color:#323B58; 
+   }
+   .title {
+       position: absolute ;
+       top:50%;
+       left:50%;
+       transform:translate(-50%,-50%);
+       
+   }
+   .title h1 {
+       font-family:cursive; 
+       color:white;
+       text-transform:uppercase;
+       font-size:40px;
+       padding-top: 10%; 
+   
+   }
+   #shape{
+       width: 300px;
+       height: 300px;
+       background: #7a573e;
+       position: absolute;
+       top:25%;
+       left:20%;
+       
+   }
+   p{
+       font-family:cursive;
+       color:white;
+       text-transform:uppercase;
+       padding-top: 10%; 
+       padding-left:50px
+   }
+   .login{
+       
+       padding-top: 10%; 
+       padding-left:50px
+   }
+   input{
+       border: 2px solid black;
+       border-radius: 4px;
+       width :80%;
+       padding:12px;
+           
+   }
+   
+   input[type=submit] {
+       background-color:#4a5569 ;
+       color: white;
+       padding: 12px 5px;
+       border: 2px solid #4a5569;
+       border-radius: 4px;
+       cursor: pointer;
+       float: center ;
+       padding-left:15px;
+     }
+     
+   input[type=submit]:hover {
+       background-color: lightgrey ;
+       color:black;
+       border: 2px solid lightgrey;
+     }
+   input[type=email] {
+       background-color:white;
+   
+   }
+   input[type=password] {
+       background-color:white;
+   
+   }
+   
+   .box-1 img {
+       width: 100%;
+       height: 100%;
+       object-fit: cover
+   }
+   
+   .box-2 {
+       padding: 10px
+   }
+   
+   .box-1 ,
+   .box-2 {
+       width: 50%
+   }
+   .container {
+       margin: 50px auto
+   }
+   
+   .body {
+       position: relative;
+       width: 720px;
+       height: 440px;
+       margin: 20px auto;
+       border: 1px solid #dddd;
+       border-radius: 18px;
+       overflow: hidden;
+       box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+       font-family: Segoe;
+   }
+   .h-1 {
+       font-size: 24px;
+       font-weight: 700;
+       color:black;
+       padding-left:40px;
+   }
+   
+   .menu a , .menu a i {
+       text-decoration:none;
+       color:rgba(255, 255, 255, 0.6);
+       padding-inline: 10px;
+       
+   }
+   .menu a i{
+       text-decoration:none;
+       color:rgba(255, 255, 255, 0.6);
+       padding-block:20px;
+   }
+   .col a{
+       text-decoration:none;
+       color:white;
+       padding-inline: 10px;
+   }
+   .col a:hover{
+       color:lightgrey;
+   }
+   .menu a:hover , .menu a i:hover {
+       color:white;
+   }
+   
+   
+   /*cards*/
+   .card1{
+     
+       box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+       width: 50%;
+       color:black;
+       width:30%;
+       margin:5%;
+       border-radius:5px;
+       margin-inline:auto;
+       margin-top:0%;
+   }
+   .card1:hover{
+           box-shadow: 0px 0px 10px 10px rgb(0 0 0 / 20%);
+           transition: 200ms ease;
+   }
+   .container , .container p , .container h4 b{
+       font-family:Arial, Helvetica, sans-serif;
+       text-transform:lowercase;
+       padding: 10px ;
+       text-align:center;
+     }
+   .container h4 {
+       text-align:center;
+      
+   }
+   article {
+       display:flex;
+       
+   }
+   .card1 img {
+       border-radius:4px;
+   }
+   .cardbtn{
+       border:1px #d1cece solid;
+       text-decoration:none;
+       padding:10px 90px;
+       border-radius:5px;
+       color:white;
+       border-radius:4px;
+       background-color:#d1cece;
+   }
+   .cardbtn:hover{
+       opacity:0.8;
+       color:white;
+   }
+   
+   article{
+       /* background-image:url("images/beautiful-grey-cat-on-grey-background-free-photo.jpg"); */
+       background-color:white;
+       background-size:cover;
+       background-repeat:no-repeat;
+       margin-inline:2%;
+   }
+   /*link hover*/
+   .hover-underline-animation {
+       display: inline-block;
+       position: relative;
+       color: black;
+   }
+     
+   .hover-underline-animation:after {
+       content: '';
+       position: absolute;
+       width: 100%;
+       transform: scaleX(0);
+       height: 2px;
+       bottom: 0;
+       left: 0;
+       background-color: black;
+       transform-origin: bottom right;
+       transition: transform 0.25s ease-out;
+   }
+     
+   .hover-underline-animation:hover:after {
+       transform: scaleX(1);
+       transform-origin: bottom left;
+   }
+   .body{
+         margin-left:10px;
+   }
+   .footer{
+        position:grid;
+        bottom:0;
+   
+        width:100%;
+        background-color:#4D4D4D;
+   }
+   
+   .idk{
+       margin-left: 13%;
+       margin-top:-12px;
+       margin-right:2%;
+       border: 3px solid #dcdee3;
+       border-radius: 3px;
+       overflow: hidden;
+       -ms-flex: 1 1;
+       flex: 1 1;
+       padding:0;}
+   .firstsec{
+       margin-top:4%;
+       background-image:url("images/a-white-kitten-against-the-wall-in-the-house.jpg");
+       background-size:cover;
+       background-repeat:no-repeat;
+       height:120%;
+       width:100%;
+   }
+   .firstsec div p {
+       position:absolute;
+       top:6%;
+       font-size:smaller;
+   }
+   .firstsec div a {
+       position:absolute;
+       top:55%; 
+       left:-10px;
+       font-size:larger;
+      
+   }
+  *{
+      font-size:15px;
+  }
+}
